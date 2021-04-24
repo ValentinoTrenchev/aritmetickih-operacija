@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aritmetickih Operacija</title>
+</head>
+<body>
+       <script>
+        var firstNumber =prompt ("Enter first number:");
+        var operator = prompt("Enter operator(+,-, *,/):");
+        var secondNumber =prompt("Enter second number:");
+
+        switch (operator) {
+          case "+":
+          result = parseInt(firstNumber) + parseInt(secondNumber);
+          alert("Result is: " + result);
+          break;
+          case "-":
+          result = parseInt(firstNumber) - parseInt(secondNumber);
+          alert("Result is: " + result);
+          break;
+          case "*":
+          result = parseInt(firstNumber) * parseInt(secondNumber);
+          alert("Result is: " + result);
+          break;
+          case "/":
+          result = parseInt(firstNumber) / parseInt(secondNumber);
+          alert("Result is: " + result);
+          break;
+          default:
+          alert("You didn't enter a valid operator")
+        }
+    </script>
+
+
+</body>
+</html>
